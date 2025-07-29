@@ -1,7 +1,7 @@
 server:
   port: 8087
   servlet:
-    context-path: '/ead-authuser/'
+    context-path: "/ead-authuser/"
 
 spring:
   application:
@@ -28,10 +28,22 @@ spring:
 ead:
   api:
     url:
-      course: 'http://ead-course-service/ead-course'
+      course: "http://ead-course-service/ead-course"
   broker:
     exchange:
       userEvent: ead.userevent
+
+authuser:
+  refreshscope:
+    name: ead.userevent
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
 
 logging:
   level:
