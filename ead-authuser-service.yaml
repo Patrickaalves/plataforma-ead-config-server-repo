@@ -35,7 +35,7 @@ ead:
 
 authuser:
   refreshscope:
-    name: ead.userevent
+    name: Patrick Alves
 
 management:
   endpoints:
