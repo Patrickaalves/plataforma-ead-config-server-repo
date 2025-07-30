@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ead-payment-service
+
+server:
+  port: 8086
