@@ -32,9 +32,12 @@ ead:
   broker:
     exchange:
       userEventExchange: ead.userevent
+      notification-command-exchange: ead.notificationcommand
     queue:
       userEventQueue:
         name: ead.userevent.ms.course
+    key:
+      notification-command-key: ms.notification
 
 logging:
   level:
