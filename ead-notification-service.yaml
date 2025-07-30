@@ -1,5 +1,7 @@
 server:
   port: 8084
+  servelet:
+    context-path: '/ead-notification/'
   
 spring:
   application:
